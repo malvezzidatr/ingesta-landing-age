@@ -1,6 +1,6 @@
-# Calito — Landing Page
+# Ingesta — Landing Page
 
-Site estático (HTML/CSS/JS puro, sem build, sem dependências) da landing page de vendas do Calito.
+Site estático (HTML/CSS/JS puro, sem build, sem dependências) da landing page de vendas do Ingesta.
 
 ## Como abrir
 

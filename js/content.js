@@ -6,9 +6,9 @@
 
 const CONTENT = {
   brand: {
-    name: 'Calito',
+    name: 'Ingesta',
     whatsappNumber: '5511999999999', // TODO: trocar pelo número real de produção
-    whatsappPrefillMessage: 'Oi! Quero começar a usar o Calito',
+    whatsappPrefillMessage: 'Oi! Quero começar a usar o Ingesta',
   },
 
   nav: {
@@ -24,7 +24,7 @@ const CONTENT = {
     eyebrow: 'Controle alimentar pelo WhatsApp',
     title: 'Contar calorias sem abrir nenhum app.\nSó manda uma mensagem.',
     subtitle:
-      'Registre o que comeu com suas próprias palavras. O Calito calcula calorias e macros na hora, direto no WhatsApp que você já usa todo dia.',
+      'Registre o que comeu com suas próprias palavras. O Ingesta calcula calorias e macros na hora, direto no WhatsApp que você já usa todo dia.',
     ctaPrimary: 'Começar agora',
     ctaSecondary: 'Ver como funciona',
   },
@@ -63,7 +63,7 @@ const CONTENT = {
         number: '03',
         title: 'Resumo automático todo dia',
         description:
-          'Sem precisar pedir: o Calito te avisa como está o dia e o que falta pra bater sua meta.',
+          'Sem precisar pedir: o Ingesta te avisa como está o dia e o que falta pra bater sua meta.',
       },
       {
         number: '04',
@@ -83,7 +83,7 @@ const CONTENT = {
       },
       {
         old: 'Pesar e preencher porção manualmente',
-        new: 'O Calito entende a quantidade pelo contexto',
+        new: 'O Ingesta entende a quantidade pelo contexto',
       },
       {
         old: 'Baixar um app e criar conta',
@@ -99,7 +99,7 @@ const CONTENT = {
   honesty: {
     title: 'O que a gente não faz',
     body:
-      'O Calito não te diz o que comer. Ele registra, calcula e te dá o resumo — a decisão sobre sua alimentação continua sendo sua, ou de um profissional de nutrição, se você tiver um. Sem "evite isso", sem "coma aquilo". Só dados claros e motivação de verdade.',
+      'O Ingesta não te diz o que comer. Ele registra, calcula e te dá o resumo — a decisão sobre sua alimentação continua sendo sua, ou de um profissional de nutrição, se você tiver um. Sem "evite isso", sem "coma aquilo". Só dados claros e motivação de verdade.',
   },
 
   pricing: {
@@ -129,14 +129,14 @@ const CONTENT = {
           'Não. Tudo funciona dentro do WhatsApp que você já usa. Não tem app novo, não tem conta pra criar.',
       },
       {
-        question: 'O Calito me diz o que eu deveria comer?',
+        question: 'O Ingesta me diz o que eu deveria comer?',
         answer:
           'Não. Ele registra, calcula e motiva — nunca dá recomendação nutricional. Isso é papel de um profissional de saúde, se você tiver um.',
       },
       {
         question: 'E se eu errar a refeição que registrei?',
         answer:
-          'É só corrigir na conversa, tipo "era 1 ovo, não 2", que o Calito ajusta o registro. Também dá pra apagar o último registro a qualquer momento.',
+          'É só corrigir na conversa, tipo "era 1 ovo, não 2", que o Ingesta ajusta o registro. Também dá pra apagar o último registro a qualquer momento.',
       },
       {
         question: 'Meus dados ficam seguros?',
@@ -159,6 +159,6 @@ const CONTENT = {
       { label: 'Política de privacidade (LGPD)', href: 'privacidade.html' },
     ],
     contact: 'suporte@calito.app',
-    copyright: `© ${new Date().getFullYear()} Calito. Todos os direitos reservados.`,
+    copyright: `© ${new Date().getFullYear()} Ingesta. Todos os direitos reservados.`,
   },
 };
