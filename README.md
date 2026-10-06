@@ -44,6 +44,6 @@ js/scroll-reveal.js          → fade-in das seções ao rolar a página
 ## Antes de publicar / mostrar pro cliente
 
 - [ ] Trocar `brand.whatsappNumber` em `js/content.js` pelo número real de produção
-- [ ] Confirmar o preço em `pricing.price` (hoje é um placeholder: R$ 29,90)
+- [x] Confirmar o preço em `pricing.price` (R$ 9,90)
 - [ ] Preencher os links legais do rodapé (`footer.legalLinks`) com Termos e Política de Privacidade reais
 - [ ] Revisar `footer.contact` (e-mail de suporte)

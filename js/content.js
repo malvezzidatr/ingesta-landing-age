@@ -21,8 +21,8 @@ const CONTENT = {
   },
 
   hero: {
-    eyebrow: 'Controle alimentar pelo WhatsApp',
-    title: 'Contar calorias sem abrir nenhum app.\nSó manda uma mensagem.',
+    eyebrow: 'Registre a sua alimentação pelo WhatsApp',
+    title: 'Saiba as calorias sem abrir nenhum app.\nApenas mande uma mensagem.',
     subtitle:
       'Registre o que comeu com suas próprias palavras. O Ingesta calcula calorias e macros na hora, direto no WhatsApp que você já usa todo dia.',
     ctaPrimary: 'Começar agora',
@@ -36,7 +36,7 @@ const CONTENT = {
       from: 'bot',
       text: '✓ Café da manhã · 250kcal\n🥩 Proteína: 14g\n🍚 Carboidrato: 27g\n🧈 Gordura: 11g\n\nMandou bem! Começou o dia com bastante proteína 💪',
     },
-    { from: 'user', text: 'almocei arroz, feijão e um filé de frango' },
+    { from: 'user', text: 'almocei 3 colheres de arroz, 2 conchas de feijão e um filé de frango' },
     {
       from: 'bot',
       text: '✓ Almoço · 650kcal\n🥩 P: 45g | 🍚 C: 75g | 🧈 G: 12g\n\nAlmoço equilibrado! Faltam 1.100kcal pra bater a meta 🔥',
@@ -44,14 +44,14 @@ const CONTENT = {
   ],
 
   howItWorks: {
-    title: 'Como funciona',
+    title: 'Como funciona?',
     subtitle: 'Quatro passos. Nenhum aplicativo novo.',
     steps: [
       {
         number: '01',
-        title: 'Manda o que comeu',
+        title: 'Registre a sua refeição',
         description:
-          'Do jeito que você fala mesmo: "almocei arroz, feijão e frango". Sem buscar alimento, sem pesar porção.',
+          'Da maneira que você preferir. Ex: "almocei 3 colheres de arroz, 2 conchas de feijão e um filé de frango".',
       },
       {
         number: '02',
@@ -87,11 +87,11 @@ const CONTENT = {
       },
       {
         old: 'Baixar um app e criar conta',
-        new: 'Usar o WhatsApp que você já tem aberto',
+        new: 'Usar o seu próprio WhatsApp',
       },
       {
         old: 'Esquecer de registrar e perder o histórico',
-        new: 'Resumo automático te lembra sozinho',
+        new: 'Lembrete automático não deixa você esquecer',
       },
     ],
   },
@@ -99,20 +99,20 @@ const CONTENT = {
   honesty: {
     title: 'O que a gente não faz',
     body:
-      'O Ingesta não te diz o que comer. Ele registra, calcula e te dá o resumo — a decisão sobre sua alimentação continua sendo sua, ou de um profissional de nutrição, se você tiver um. Sem "evite isso", sem "coma aquilo". Só dados claros e motivação de verdade.',
+      'O Ingesta não prescreve ou fornece qualquer tipo de plano alimentar. Apenas registra, calcula e apresenta resumos — a decisão sobre a sua alimentação será sua. Sem "evite isso" ou "coma aquilo". Somente dados claros e motivação de verdade.',
   },
 
   pricing: {
     title: 'Preço',
     subtitle: 'Um plano só. Sem pegadinha.',
     planName: 'Plano Mensal',
-    price: 'R$ 29,90',
+    price: 'R$ 9,90',
     period: '/mês',
-    trialNote: '7 dias grátis pra testar, sem cartão de crédito',
+    trialNote: '3 dias grátis pra testar, sem cartão de crédito',
     features: [
       'Registro ilimitado de refeições',
       'Cálculo automático de calorias e macros',
-      'Metas personalizadas (TMB)',
+      'Estimativa diária de calorias e macros',
       'Resumo diário automático',
       'Consulta semanal',
       'Pagamento via PIX',
@@ -131,12 +131,12 @@ const CONTENT = {
       {
         question: 'O Ingesta me diz o que eu deveria comer?',
         answer:
-          'Não. Ele registra, calcula e motiva — nunca dá recomendação nutricional. Isso é papel de um profissional de saúde, se você tiver um.',
+          'Não. Ele registra, calcula e motiva — sem qualquer recomendação nutricional. Isso é papel de um nutricionista.',
       },
       {
         question: 'E se eu errar a refeição que registrei?',
         answer:
-          'É só corrigir na conversa, tipo "era 1 ovo, não 2", que o Ingesta ajusta o registro. Também dá pra apagar o último registro a qualquer momento.',
+          'Basta corrigir na própria conversa. Ex: "era 1 ovo, não 2". O Ingesta ajusta o registro automaticamente. É possível também apagar o último registro a qualquer momento.',
       },
       {
         question: 'Meus dados ficam seguros?',
@@ -146,7 +146,7 @@ const CONTENT = {
       {
         question: 'Como eu cancelo?',
         answer:
-          'A qualquer momento, direto pelo WhatsApp, sem burocracia e sem precisar ligar pra ninguém.',
+          'A qualquer momento, direto pelo WhatsApp. Sem burocracia e sem precisar de qualquer ligação.',
       },
     ],
   },
